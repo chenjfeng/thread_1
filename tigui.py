@@ -61,9 +61,3 @@ print(product3(10))
 def sqrr(n):
 	return n*n
 
-def sumsqr(n):
-	if n==1:
-		return 1
-	else:
-		return sqrr(n)+sqrr(sumsqr(n-1))
-print(sumsqr(5))
