@@ -9,3 +9,11 @@ def ksum(n):
 		return result
 
 print(ksum(100))
+
+#第二个例子：递归求平方和
+def kcount(n):
+	if n==1:
+		return 1
+	else:
+		return n*n +kcount((n-1)*(n-1))
+print(kcount(3))
